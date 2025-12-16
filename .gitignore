@@ -1,0 +1,49 @@
+### OS / Editor ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+### Python ###
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.python-version
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+### Jupyter ###
+.ipynb_checkpoints/
+
+### Logs ###
+*.log
+logs/
+
+### Environment / Secrets ###
+.env
+.env.*
+*.secret
+*.key
+
+### Frontend (Vite/Node/Bun) ###
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.turbo/
+Frontend/.vite/
+Frontend/.eslintcache
+
+### Local tooling ###
+.npm/
+.cache/
+.parcel-cache/
+
+./Frontend/node_modules
